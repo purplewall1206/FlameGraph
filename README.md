@@ -1,5 +1,37 @@
 # Flame Graphs visualize profiled code
 
+
+sampling the kernel/user stack periodically
+
+https://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html
+
+## eBPF
+
+```sh
+profile-bpfcc -F 99 -adf 60 > out.profile-folded  # might be called /usr/share/bcc/tools/profile
+./flamegraph.pl --colors=java out.profile-folded > profile.svg
+firefox profile.svg  # or chrome, etc.
+
+
+profile-bpfcc -F 99 -kdf 10 > out.profile-folded 
+./flamegraph.pl --colors=java out.profile-folded > profile.svg
+google-chrome profile.svg
+```
+
+This samples at 99 Hertz (-F 99), includes annotations such as "_[k]" for kernel (-a), includes a delimiter between user and kernel stacks (-d), outputs in folded format (-f), and samples for 60 seconds (60). Run profile-bpfcc -h to list other options. I added the --colors=java mode to flamegraph.pl so it made use of those annotations, which will color user/kernel/jit code differently.
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------
 Main Website: http://www.brendangregg.com/flamegraphs.html
 
 Example (click to zoom):
