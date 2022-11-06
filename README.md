@@ -1,6 +1,109 @@
 # Flame Graphs visualize profiled code
 
+## latency of new added kernel protection
 
+### challenges
+
+1. latency of different cache size
+2. new added code are optimized everywhere
+
+
+```
+print map
+    1:8917:		5278 nsec
+    2:412:		8994 nsec
+    3:8952:		5312 nsec
+    4:248:		9019 nsec
+    5:23051:	7064 nsec
+    6:316:		11427 nsec
+    7:2500:		16670 nsec
+    8:125:		8809 nsec
+    9:238:		8813 nsec
+   10:1:		5693 nsec
+   11:17167:	937 nsec
+   12:8829:		22231 nsec
+   13:4019:		12256 nsec
+```
+
+
+### technique approach
+1. rdstc: `u64 ts = bpf_ktime_get_ns()`
+2. periodically sampling: 
+```py
+b.attach_perf_event(ev_type=PerfType.SOFTWARE,
+    ev_config=PerfSWConfig.CPU_CLOCK, fn_name="do_perf_event",
+    sample_period=sample_period, sample_freq=sample_freq, cpu=args.cpu)
+
+stack_traces.get_stackid(&ctx->regs, 0)
+```
+
+[profile-bpfcc](https://github.com/iovisor/bcc/blob/master/tools/profile.py) migrate from bcc to libBPF
+
+there is no encapsulated stack trace or histgram in libbpf
+
+
+```c
+#include "vmlinux.h"
+#include <bpf/bpf_helpers.h>
+#include <bpf/bpf_tracing.h>
+#include <bpf/bpf_core_read.h>
+
+
+struct {
+    __uint(type, BPF_MAP_TYPE_HASH);
+    __uint(max_entries, 40960);
+    __type(key, u32); // quarantined objects
+    __type(value, u64); 
+} latency SEC(".maps");
+
+
+// 0x02fb418f:         DW_TAG_inlined_subroutine
+//                       DW_AT_abstract_origin     (0x02fb4d4d "shuffle_freelist")
+//                       DW_AT_entry_pc    (0xffffffff8130dd5b)
+//                       DW_AT_GNU_entry_view      (0x0007)
+//                       DW_AT_ranges      (0x00101b52
+//                          [0xffffffff8130dd5b, 0xffffffff8130de88)
+//                          [0xffffffff8130dec5, 0xffffffff8130ded9)
+//                          [0xffffffff8130df9c, 0xffffffff8130dfb1)
+//                          [0xffffffff8130e00b, 0xffffffff8130e020)
+//                          [0xffffffff8130e0a2, 0xffffffff8130e0a4)
+//                          [0xffffffff81cd6472, 0xffffffff81cd6472))
+//                       DW_AT_call_file   ("/home/ppw/Documents/ebpf-detector/linux-5.15-vulns/mm/slub.c")
+//                       DW_AT_call_line   (1936)
+//                       DW_AT_call_column (0x0c)
+//                       DW_AT_sibling     (0x02fb459c)
+
+SEC("kprobe/new_slab")
+int BPF_KPROBE(prog0)
+{
+    u32 pid = bpf_get_current_pid_tgid();
+    u64 ts = bpf_ktime_get_ns();
+    bpf_map_update_elem(&latency, &pid, &ts, BPF_ANY);
+    return 0;
+}
+
+
+SEC("kprobe/new_slab")
+int BPF_KPROBE(prog0)
+{
+    u32 pid = bpf_get_current_pid_tgid();
+    u64 ts = bpf_ktime_get_ns();
+    u64 *pts = bpf_map_lookup_elem(&latency, &pid);
+    if (pts) {
+        u64 lat = ts - *pts;
+        bpf_map_update_elem(&latency, &pid, &lat, BPF_ANY);
+    }
+    return 0;
+}
+
+
+
+char LICENSE[] SEC("license") = "Dual BSD/GPL";
+
+
+```
+
+----------------------------
 sampling the kernel/user stack periodically
 
 https://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html
