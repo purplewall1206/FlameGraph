@@ -4,8 +4,25 @@
 
 ### challenges
 
-1. latency of different cache size
-2. new added code are optimized everywhere
+1. sampling with contexts(input output)
+2. *what is context(same versions, different input)?*
+    - times of loops
+    - branches
+    - syscall input
+3. **the rationale of the randomization casues performance slow down**, the bottleneck(multiple objects randomize)
+4. execution time of each line of code.
+
+### task 
+
+combine the context(execution trace in the function, function input, global config) with the latency.
+    - high light the variables that cause the performance slowdown under the same context(same version, different input)
+
+compare 2 **execution trace** and time latency under same context, figure out the heaviest basic block. 
+
+e.g. the stop condition of a loop is changed, highlight the variable.
+
+<!-- 1. latency of different cache size
+2. new added code are optimized everywhere -->
 
 
 ```
