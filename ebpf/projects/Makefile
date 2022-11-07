@@ -21,7 +21,7 @@ ALL_LDFLAGS := $(LDFLAGS) $(EXTRA_LDFLAGS)
 ####################################################################################
 # add new project here
 
-APPS = minimal stacktrace
+APPS = minimal stacktrace stack_count
 
 
 
