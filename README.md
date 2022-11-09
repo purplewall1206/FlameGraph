@@ -2,6 +2,9 @@
 
 https://drive.google.com/drive/folders/1zf3WdoFC9X1mI5jVZ2J74PqawN8GqCj-
 
+https://discord.gg/KJ8Df4r5
+
+
 ## latency of new added kernel protection
 
 ### challenges

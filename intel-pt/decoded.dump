@@ -1,0 +1,1747 @@
+       perf-exec 2818651 [007] 970187.528652154:              psb:  psb offs: 0                                      0 [unknown] ([unknown])
+       perf-exec 2818651 [007] 970187.528652154:              cbr:  cbr: 47 freq: 4683 MHz (127%)                    0 [unknown] ([unknown])
+           a.out 2818651 [007] 970187.528685727:          1      branches:uH:      7f41582d32b0 dl_main+0x9b0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  :0
+           a.out 2818651 [007] 970187.528687872:          1      branches:uH:      7f41582d32b3 dl_main+0x9b3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  :0
+           a.out 2818651 [007] 970187.528688169:          1      branches:uH:      7f41582d4075 dl_main+0x1775 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:557
+           a.out 2818651 [007] 970187.528689263:          1      branches:uH:      7f41582d4091 dl_main+0x1791 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:85
+           a.out 2818651 [007] 970187.528690497:          1      branches:uH:      7f41582d4360 dl_main+0x1a60 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  do-rel.h:114
+           a.out 2818651 [007] 970187.528691105:          1      branches:uH:      7f41582d437b dl_main+0x1a7b (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:535
+           a.out 2818651 [007] 970187.528692453:          1      branches:uH:      7f41582d4537 dl_main+0x1c37 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:588
+           a.out 2818651 [007] 970187.528692881:          1      branches:uH:      7f41582d4564 dl_main+0x1c64 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:488
+           a.out 2818651 [007] 970187.528693060:          1      branches:uH:      7f41582c6530 _dl_runtime_profile_avx512+0x300 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-setup_hash.c:25
+           a.out 2818651 [007] 970187.528694452:          1      branches:uH:      7f41582d45b3 dl_main+0x1cb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:507
+           a.out 2818651 [007] 970187.528694703:          1      branches:uH:      7f41582d2532 _dl_start+0x4e2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sysdep.c:122
+           a.out 2818651 [007] 970187.528695914:          1      branches:uH:      7f41582d27fd handle_preload_list+0x9d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sysdep.c:224
+           a.out 2818651 [007] 970187.528697629:          1      branches:uH:      7f41582d2802 handle_preload_list+0xa2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sysdep.c:227
+           a.out 2818651 [007] 970187.528697629:          1      branches:uH:      7f41582c6714 _dl_runtime_profile_avx+0xd4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sort-maps.c:280
+           a.out 2818651 [007] 970187.528697711:          1      branches:uH:      7f41582d2809 handle_preload_list+0xa9 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sysdep.c:36
+           a.out 2818651 [007] 970187.528697808:          1      branches:uH:      7f41582d8aa9 strcmp+0x869 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  brk.c:36
+           a.out 2818651 [007] 970187.528697949:          1      branches:uH:      7f41582d280e handle_preload_list+0xae (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:215
+           a.out 2818651 [007] 970187.528698203:          1      branches:uH:      7f41582cd3cb _dl_diagnostics_print_string+0x10b (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  cpu-features.c:424
+           a.out 2818651 [007] 970187.528700926:          1      branches:uH:      7f41582cd44d _dl_print_diagnostics+0xd (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  cpu-features.c:429
+           a.out 2818651 [007] 970187.528703394:          1      branches:uH:      7f41582ccf92 _dl_audit_pltexit+0x142 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:724
+           a.out 2818651 [007] 970187.528703726:          1      branches:uH:      7f41582cbfe3 _dl_cet_check+0x443 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:284
+           a.out 2818651 [007] 970187.528704160:          1      branches:uH:      7f41582ccfa4 _dl_audit_pltexit+0x154 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:725
+           a.out 2818651 [007] 970187.528704279:          1      branches:uH:      7f41582cbfe3 _dl_cet_check+0x443 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:284
+           a.out 2818651 [007] 970187.528704947:          1      branches:uH:      7f41582ccfb1 _dl_audit_pltexit+0x161 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:726
+           a.out 2818651 [007] 970187.528705063:          1      branches:uH:      7f41582cbfe3 _dl_cet_check+0x443 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:284
+           a.out 2818651 [007] 970187.528706130:          1      branches:uH:      7f41582ccfc6 _dl_audit_pltexit+0x176 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:729
+           a.out 2818651 [007] 970187.528706130:          1      branches:uH:      7f41582cbfe3 _dl_cet_check+0x443 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:284
+           a.out 2818651 [007] 970187.528706667:          1      branches:uH:      7f41582ccfd5 _dl_audit_pltexit+0x185 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:731
+           a.out 2818651 [007] 970187.528706780:          1      branches:uH:      7f41582cbfe3 _dl_cet_check+0x443 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:284
+           a.out 2818651 [007] 970187.528707198:          1      branches:uH:      7f41582ccfe9 _dl_audit_pltexit+0x199 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:734
+           a.out 2818651 [007] 970187.528707198:          1      branches:uH:      7f41582cbfe3 _dl_cet_check+0x443 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:284
+           a.out 2818651 [007] 970187.528707546:          1      branches:uH:      7f41582ccff8 _dl_audit_pltexit+0x1a8 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:736
+           a.out 2818651 [007] 970187.528707546:          1      branches:uH:      7f41582cbfe3 _dl_cet_check+0x443 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:284
+           a.out 2818651 [007] 970187.528707903:          1      branches:uH:      7f41582cd00b _dl_audit_pltexit+0x1bb (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:739
+           a.out 2818651 [007] 970187.528708018:          1      branches:uH:      7f41582cbfe3 _dl_cet_check+0x443 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:284
+           a.out 2818651 [007] 970187.528708662:          1      branches:uH:      7f41582cd018 _dl_audit_pltexit+0x1c8 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:741
+           a.out 2818651 [007] 970187.528708662:          1      branches:uH:      7f41582cbfe3 _dl_cet_check+0x443 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:284
+           a.out 2818651 [007] 970187.528709407:          1      branches:uH:      7f41582cd027 _dl_audit_pltexit+0x1d7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:744
+           a.out 2818651 [007] 970187.528709528:          1      branches:uH:      7f41582cbfe3 _dl_cet_check+0x443 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:284
+           a.out 2818651 [007] 970187.528710561:          1      branches:uH:      7f41582cd036 _dl_audit_pltexit+0x1e6 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:746
+           a.out 2818651 [007] 970187.528710679:          1      branches:uH:      7f41582cbfe3 _dl_cet_check+0x443 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:284
+           a.out 2818651 [007] 970187.528711714:          1      branches:uH:      7f41582cd043 _dl_resolve_conflicts+0x3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:748
+           a.out 2818651 [007] 970187.528711714:          1      branches:uH:      7f41582cbfe3 _dl_cet_check+0x443 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:284
+           a.out 2818651 [007] 970187.528712862:          1      branches:uH:      7f41582cbff7 _dl_cet_check+0x457 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:289
+           a.out 2818651 [007] 970187.528712979:          1      branches:uH:      7f41582cc00c _dl_cet_check+0x46c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:294
+           a.out 2818651 [007] 970187.528712991:          1      branches:uH:      7f41582cc022 _dl_cet_check+0x482 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:299
+           a.out 2818651 [007] 970187.528713003:          1      branches:uH:      7f41582cd060 _dl_resolve_conflicts+0x20 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:750
+           a.out 2818651 [007] 970187.528714597:          1      branches:uH:      7f41582cca1b _dl_audit_symbind+0xfb (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:919
+           a.out 2818651 [007] 970187.528714597:          1      branches:uH:      7f41582cca41 _dl_audit_symbind+0x121 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:924
+           a.out 2818651 [007] 970187.528714637:          1      branches:uH:      7f41582cca61 _dl_audit_symbind+0x141 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:929
+           a.out 2818651 [007] 970187.528714652:          1      branches:uH:      7f41582cca87 _dl_audit_symbind+0x167 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:934
+           a.out 2818651 [007] 970187.528714652:          1      branches:uH:      7f41582ccac4 _dl_audit_symbind+0x1a4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:941
+           a.out 2818651 [007] 970187.528714667:          1      branches:uH:      7f41582ccb1b _dl_audit_symbind+0x1fb (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:944
+           a.out 2818651 [007] 970187.528714777:          1      branches:uH:      7f41582ccb4e _dl_audit_symbind+0x22e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:945
+           a.out 2818651 [007] 970187.528714789:          1      branches:uH:      7f41582ccb86 _dl_audit_symbind+0x266 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:946
+           a.out 2818651 [007] 970187.528714804:          1      branches:uH:      7f41582ccbb5 _dl_audit_symbind+0x295 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:948
+           a.out 2818651 [007] 970187.528714811:          1      branches:uH:      7f41582ccbed _dl_audit_symbind+0x2cd (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cacheinfo.h:950
+           a.out 2818651 [007] 970187.528714816:          1      branches:uH:      7f41582ccc30 _dl_audit_pltenter+0x30 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  cpu-features.c:706
+           a.out 2818651 [007] 970187.528714851:          1      branches:uH:      7f41582ccccf _dl_audit_pltenter+0xcf (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  cpu-features.c:817
+           a.out 2818651 [007] 970187.528714851:          1      branches:uH:      7f41582ccce3 _dl_audit_pltenter+0xe3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  cpu-features.c:819
+           a.out 2818651 [007] 970187.528714884:          1      branches:uH:      7f41582cccf5 _dl_audit_pltenter+0xf5 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  cpu-features.c:27
+           a.out 2818651 [007] 970187.528715078:          1      branches:uH:      7f41582d281f handle_preload_list+0xbf (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sysdep.c:239
+           a.out 2818651 [007] 970187.528715078:          1      branches:uH:      7f41582d282d handle_preload_list+0xcd (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sysdep.c:241
+           a.out 2818651 [007] 970187.528715166:          1      branches:uH:      7f41582d285a handle_preload_list+0xfa (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sysdep.c:256
+           a.out 2818651 [007] 970187.528715166:          1      branches:uH:      7f41582d4984 dl_main+0x2084 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1332
+           a.out 2818651 [007] 970187.528715239:          1      branches:uH:      7f41582d49c3 dl_main+0x20c3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2685
+           a.out 2818651 [007] 970187.528715501:          1      branches:uH:      7f41582d525e dl_main+0x295e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1627
+           a.out 2818651 [007] 970187.528715717:          1      branches:uH:      7f41582c09fd _dl_debug_vdprintf+0x53d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:44
+           a.out 2818651 [007] 970187.528715919:          1      branches:uH:      7f41582c0a40 _dl_debug_vdprintf+0x580 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-object.c:104
+           a.out 2818651 [007] 970187.528716023:          1      branches:uH:      7f41582d52a2 dl_main+0x29a2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1636
+           a.out 2818651 [007] 970187.528716035:          1      branches:uH:      7f41582c0908 _dl_debug_vdprintf+0x448 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-object.c:33
+           a.out 2818651 [007] 970187.528716316:          1      branches:uH:      7f41582d5350 dl_main+0x2a50 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1170
+           a.out 2818651 [007] 970187.528717044:          1      branches:uH:      7f41582d53ca dl_main+0x2aca (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1288
+           a.out 2818651 [007] 970187.528717225:          1      branches:uH:      7f41582bbb60 _dl_map_object+0x750 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:868
+           a.out 2818651 [007] 970187.528718800:          1      branches:uH:      7f41582d57fe dl_main+0x2efe (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1663
+           a.out 2818651 [007] 970187.528719004:          1      branches:uH:      7f41582d5862 dl_main+0x2f62 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  get-dynamic-info.h:45
+           a.out 2818651 [007] 970187.528719766:          1      branches:uH:      7f41582d6cdc getcwd+0x17c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  get-dynamic-info.h:83
+           a.out 2818651 [007] 970187.528720771:          1      branches:uH:      7f41582d59f6 dl_main+0x30f6 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1695
+           a.out 2818651 [007] 970187.528720788:          1      branches:uH:      7f41582d5a2d dl_main+0x312d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  setup-vdso.h:32
+           a.out 2818651 [007] 970187.528720788:          1      branches:uH:      7f41582c0d44 _dl_dprintf+0x24 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-object.c:83
+           a.out 2818651 [007] 970187.528720816:          1      branches:uH:      7f41582c09fd _dl_debug_vdprintf+0x53d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:44
+           a.out 2818651 [007] 970187.528720825:          1      branches:uH:      7f41582c0a40 _dl_debug_vdprintf+0x580 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-object.c:104
+           a.out 2818651 [007] 970187.528721017:          1      branches:uH:      7f41582d5a47 dl_main+0x3147 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  setup-vdso.h:37
+           a.out 2818651 [007] 970187.528721852:          1      branches:uH:      7f41582d5c9d dl_main+0x339d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  setup-vdso.h:68
+           a.out 2818651 [007] 970187.528721879:          1      branches:uH:      7f41582d5d08 dl_main+0x3408 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  setup-vdso.h:92
+           a.out 2818651 [007] 970187.528721903:          1      branches:uH:      7f41582c0908 _dl_debug_vdprintf+0x448 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-object.c:33
+           a.out 2818651 [007] 970187.528721917:          1      branches:uH:      7f41582d5dc7 dl_main+0x34c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-vdso.h:52
+           a.out 2818651 [007] 970187.528722112:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528722135:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528722161:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528722425:          1      branches:uH:      7f41582d5e81 dl_main+0x3581 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-vdso.h:52
+           a.out 2818651 [007] 970187.528722442:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528722446:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528722466:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528722533:          1      branches:uH:      7f41582d5f3d dl_main+0x363d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-vdso.h:52
+           a.out 2818651 [007] 970187.528722547:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528722575:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528722592:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528722613:          1      branches:uH:      7f41582d5ff9 dl_main+0x36f9 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-vdso.h:52
+           a.out 2818651 [007] 970187.528722631:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528722644:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528722661:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528722697:          1      branches:uH:      7f41582d60b4 dl_main+0x37b4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-vdso.h:52
+           a.out 2818651 [007] 970187.528722715:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528722729:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528722736:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528722884:          1      branches:uH:      7f41582d60ee dl_main+0x37ee (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1723
+           a.out 2818651 [007] 970187.528722914:          1      branches:uH:      7f41582d612a dl_main+0x382a (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-main.h:109
+           a.out 2818651 [007] 970187.528722914:          1      branches:uH:      7f41582bb741 _dl_map_object+0x331 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:720
+           a.out 2818651 [007] 970187.528722914:          1      branches:uH:      7f41582d04e9 _dl_sysdep_start+0x89 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:176
+           a.out 2818651 [007] 970187.528723098:          1      branches:uH:      7f41582d0517 _dl_sysdep_start+0xb7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:204
+           a.out 2818651 [007] 970187.528723214:          1      branches:uH:      7f41582d055d _dl_sysdep_start+0xfd (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:55
+           a.out 2818651 [007] 970187.528723214:          1      branches:uH:      7f41582d05ad _dl_sysdep_start+0x14d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:55
+           a.out 2818651 [007] 970187.528723320:          1      branches:uH:      7f41582d128e _dl_help+0x52e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:41
+           a.out 2818651 [007] 970187.528723343:          1      branches:uH:      7f41582d128e _dl_help+0x52e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:41
+           a.out 2818651 [007] 970187.528723353:          1      branches:uH:      7f41582d12b8 _dl_start_user+0x0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:58
+           a.out 2818651 [007] 970187.528723362:          1      branches:uH:      7f41582d05ad _dl_sysdep_start+0x14d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:55
+           a.out 2818651 [007] 970187.528723362:          1      branches:uH:      7f41582d128e _dl_help+0x52e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:41
+           a.out 2818651 [007] 970187.528723372:          1      branches:uH:      7f41582d12e3 _dl_start_user+0x2b (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:43
+           a.out 2818651 [007] 970187.528723383:          1      branches:uH:      7f41582d12b8 _dl_start_user+0x0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:58
+           a.out 2818651 [007] 970187.528723400:          1      branches:uH:      7f41582d05ad _dl_sysdep_start+0x14d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:55
+           a.out 2818651 [007] 970187.528723418:          1      branches:uH:      7f41582d05cf _dl_sysdep_start+0x16f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:56
+           a.out 2818651 [007] 970187.528723426:          1      branches:uH:      7f41582d0641 _dl_sysdep_start+0x1e1 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:115
+           a.out 2818651 [007] 970187.528723440:          1      branches:uH:      7f41582d06b1 _dl_sysdep_start+0x251 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:128
+           a.out 2818651 [007] 970187.528723440:          1      branches:uH:      7f41582d128e _dl_help+0x52e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:41
+           a.out 2818651 [007] 970187.528723465:          1      branches:uH:      7f41582d128e _dl_help+0x52e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:41
+           a.out 2818651 [007] 970187.528723469:          1      branches:uH:      7f41582d12b8 _dl_start_user+0x0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:58
+           a.out 2818651 [007] 970187.528723469:          1      branches:uH:      7f41582d06b1 _dl_sysdep_start+0x251 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:128
+           a.out 2818651 [007] 970187.528723471:          1      branches:uH:      7f41582d128e _dl_help+0x52e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:41
+           a.out 2818651 [007] 970187.528723483:          1      branches:uH:      7f41582d12e3 _dl_start_user+0x2b (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:43
+           a.out 2818651 [007] 970187.528723483:          1      branches:uH:      7f41582d12b8 _dl_start_user+0x0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:58
+           a.out 2818651 [007] 970187.528723491:          1      branches:uH:      7f41582d06b1 _dl_sysdep_start+0x251 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:128
+           a.out 2818651 [007] 970187.528723493:          1      branches:uH:      7f41582d071c _dl_sysdep_start+0x2bc (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:158
+           a.out 2818651 [007] 970187.528723718:          1      branches:uH:      7f41582d0889 _dl_sysdep_start+0x429 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:234
+           a.out 2818651 [007] 970187.528723824:          1      branches:uH:      7f41582d099b _dl_show_auxv+0xeb (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:56
+           a.out 2818651 [007] 970187.528723830:          1      branches:uH:      7f41582d0a36 _dl_show_auxv+0x186 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:80
+           a.out 2818651 [007] 970187.528723842:          1      branches:uH:      7f41582d0abe _dl_discover_osversion+0x5e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:80
+           a.out 2818651 [007] 970187.528723842:          1      branches:uH:      7f41582d128e _dl_help+0x52e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:41
+           a.out 2818651 [007] 970187.528723874:          1      branches:uH:      7f41582d128e _dl_help+0x52e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:41
+           a.out 2818651 [007] 970187.528723880:          1      branches:uH:      7f41582d12b8 _dl_start_user+0x0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:58
+           a.out 2818651 [007] 970187.528723880:          1      branches:uH:      7f41582d0aa3 _dl_discover_osversion+0x43 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:83
+           a.out 2818651 [007] 970187.528723889:          1      branches:uH:      7f41582d0abe _dl_discover_osversion+0x5e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:80
+           a.out 2818651 [007] 970187.528723909:          1      branches:uH:      7f41582d128e _dl_help+0x52e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:41
+           a.out 2818651 [007] 970187.528723909:          1      branches:uH:      7f41582d12e3 _dl_start_user+0x2b (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:43
+           a.out 2818651 [007] 970187.528723921:          1      branches:uH:      7f41582d12b8 _dl_start_user+0x0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps_split.c:58
+           a.out 2818651 [007] 970187.528723923:          1      branches:uH:      7f41582d0aa3 _dl_discover_osversion+0x43 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:83
+           a.out 2818651 [007] 970187.528723923:          1      branches:uH:      7f41582d0abe _dl_discover_osversion+0x5e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:80
+           a.out 2818651 [007] 970187.528723934:          1      branches:uH:      7f41582d0b6c _dl_discover_osversion+0x10c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:344
+           a.out 2818651 [007] 970187.528724011:          1      branches:uH:      7f41582d0bad _dl_discover_osversion+0x14d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:349
+           a.out 2818651 [007] 970187.528724014:          1      branches:uH:      7f41582d0bc9 _dl_discover_osversion+0x169 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:352
+           a.out 2818651 [007] 970187.528724017:          1      branches:uH:      7f41582d0b6c _dl_discover_osversion+0x10c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:344
+           a.out 2818651 [007] 970187.528724018:          1      branches:uH:      7f41582d0bc9 _dl_discover_osversion+0x169 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-hwcaps.c:352
+           a.out 2818651 [007] 970187.528724190:          1      branches:uH:      7f41582bb752 _dl_map_object+0x342 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:56
+           a.out 2818651 [007] 970187.528724199:          1      branches:uH:      7f41582bb799 _dl_map_object+0x389 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:56
+           a.out 2818651 [007] 970187.528724215:          1      branches:uH:      7f41582c046c _dl_get_origin+0x11c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-minimal-malloc.c:59
+           a.out 2818651 [007] 970187.528724682:          1      branches:uH:      7f41582d9cd5 strncmp+0x645 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  mmap64.c:58
+           a.out 2818651 [007] 970187.528725622:          1      branches:uH:      7f41582bb7ed _dl_map_object+0x3dd (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:758
+           a.out 2818651 [007] 970187.528726421:          1      branches:uH:      7f41582bb83a _dl_map_object+0x42a (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:768
+           a.out 2818651 [007] 970187.528726487:          1      branches:uH:      7f41582bb83a _dl_map_object+0x42a (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:768
+           a.out 2818651 [007] 970187.528726489:          1      branches:uH:      7f41582bb83a _dl_map_object+0x42a (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:768
+           a.out 2818651 [007] 970187.528726490:          1      branches:uH:      7f41582bb83a _dl_map_object+0x42a (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:768
+           a.out 2818651 [007] 970187.528726494:          1      branches:uH:      7f41582d6138 dl_main+0x3838 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1731
+           a.out 2818651 [007] 970187.528726686:          1      branches:uH:      7f41582d62ea dl_main+0x39ea (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1822
+           a.out 2818651 [007] 970187.528726781:          1      branches:uH:      7f41582d631b dl_main+0x3a1b (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1829
+           a.out 2818651 [007] 970187.528726781:          1      branches:uH:      7f41582d6329 dl_main+0x3a29 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1834
+           a.out 2818651 [007] 970187.528726940:          1      branches:uH:      7f41582d6367 dl_main+0x3a67 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1868
+           a.out 2818651 [007] 970187.528727026:          1      branches:uH:      7f41582d99c9 strncmp+0x339 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  access.c:27
+           a.out 2818651 [007] 970187.528728681:          1      branches:uH:      7f41582d6395 dl_main+0x3a95 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1961
+           a.out 2818651 [007] 970187.528728681:          1      branches:uH:      7f41582d63bb dl_main+0x3abb (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:1970
+           a.out 2818651 [007] 970187.528728822:          1      branches:uH:      7f41582b6886 __PRETTY_FUNCTION__.0+0x6 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-deps.c:159
+           a.out 2818651 [007] 970187.528729653:          1      branches:uH:      7f41582b6b7f __PRETTY_FUNCTION__.2+0xf (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-deps.c:244
+           a.out 2818651 [007] 970187.528729653:          1      branches:uH:      7f41582bae84 [unknown] (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:241
+           a.out 2818651 [007] 970187.528729781:          1      branches:uH:      7f41582b6c77 _dl_hwcaps_subdirs+0x7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-deps.c:248
+           a.out 2818651 [007] 970187.528729889:          1      branches:uH:      7f41582d034e _dl_tunable_set_hwcaps+0xa4e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-error-skeleton.c:206
+           a.out 2818651 [007] 970187.528729900:          1      branches:uH:      7f41582d0368 _dl_tunable_set_x86_ibt+0x8 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-error-skeleton.c:208
+           a.out 2818651 [007] 970187.528729900:          1      branches:uH:      7f41582b6490 _dl_find_object+0x70 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-deps.c:64
+           a.out 2818651 [007] 970187.528729997:          1      branches:uH:      7f41582bd49e _dl_lookup_symbol_x+0x3ce (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:2041
+           a.out 2818651 [007] 970187.528729997:          1      branches:uH:      7f41582c06a4 _dl_debug_vdprintf+0x1e4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:69
+           a.out 2818651 [007] 970187.528730023:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528730048:          1      branches:uH:      7f41582bd49e _dl_lookup_symbol_x+0x3ce (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:2041
+           a.out 2818651 [007] 970187.528730048:          1      branches:uH:      7f41582c06a4 _dl_debug_vdprintf+0x1e4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:69
+           a.out 2818651 [007] 970187.528730061:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528730065:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528730116:          1      branches:uH:      7f41582bd4e1 _dl_lookup_symbol_x+0x411 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:2051
+           a.out 2818651 [007] 970187.528730139:          1      branches:uH:      7f41582bd49e _dl_lookup_symbol_x+0x3ce (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:2041
+           a.out 2818651 [007] 970187.528730139:          1      branches:uH:      7f41582c06a4 _dl_debug_vdprintf+0x1e4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:69
+           a.out 2818651 [007] 970187.528730239:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528730258:          1      branches:uH:      7f41582bd4e1 _dl_lookup_symbol_x+0x411 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:2051
+           a.out 2818651 [007] 970187.528730290:          1      branches:uH:      7f41582bd567 _dl_lookup_symbol_x+0x497 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:2094
+           a.out 2818651 [007] 970187.528730290:          1      branches:uH:      7f41582bd643 _dl_lookup_symbol_x+0x573 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:2098
+           a.out 2818651 [007] 970187.528730465:          1      branches:uH:      7f41582bd97d _dl_lookup_symbol_x+0x8ad (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:2193
+           a.out 2818651 [007] 970187.528730465:          1      branches:uH:      7f41582c9bb3 get_common_cache_info.constprop.0+0x3d3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:424
+           a.out 2818651 [007] 970187.528730465:          1      branches:uH:      7f41582c0625 _dl_debug_vdprintf+0x165 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:39
+           a.out 2818651 [007] 970187.528730634:          1      branches:uH:      7f41582d9b36 strncmp+0x4a6 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  open64_nocancel.c:39
+           a.out 2818651 [007] 970187.528731930:          1      branches:uH:      7f41582c0647 _dl_debug_vdprintf+0x187 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:42
+           a.out 2818651 [007] 970187.528732339:          1      branches:uH:      7f41582d98fc strncmp+0x26c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  fstatat64.c:98
+           a.out 2818651 [007] 970187.528733210:          1      branches:uH:      7f41582c0680 _dl_debug_vdprintf+0x1c0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:49
+           a.out 2818651 [007] 970187.528733232:          1      branches:uH:      7f41582d9cd5 strncmp+0x645 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  mmap64.c:58
+           a.out 2818651 [007] 970187.528734105:          1      branches:uH:      7f41582c0666 _dl_debug_vdprintf+0x1a6 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:60
+           a.out 2818651 [007] 970187.528734118:          1      branches:uH:      7f41582d99f9 strncmp+0x369 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  close_nocancel.c:26
+           a.out 2818651 [007] 970187.528734375:          1      branches:uH:      7f41582c9bdc get_common_cache_info.constprop.0+0x3fc (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:433
+           a.out 2818651 [007] 970187.528736690:          1      branches:uH:      7f41582c9792 get_common_indices.constprop.0+0x152 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-procinfo.h:42
+           a.out 2818651 [007] 970187.528736690:          1      branches:uH:      7f41582c97ef get_common_cache_info.constprop.0+0xf (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:212
+           a.out 2818651 [007] 970187.528736720:          1      branches:uH:      7f41582c9844 get_common_cache_info.constprop.0+0x64 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:239
+           a.out 2818651 [007] 970187.528736945:          1      branches:uH:      7f41582c9637 [unknown] (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:403
+           a.out 2818651 [007] 970187.528737973:          1      branches:uH:      7f41582c9844 get_common_cache_info.constprop.0+0x64 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:239
+           a.out 2818651 [007] 970187.528738171:          1      branches:uH:      7f41582c9844 get_common_cache_info.constprop.0+0x64 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:239
+           a.out 2818651 [007] 970187.528738201:          1      branches:uH:      7f41582c9844 get_common_cache_info.constprop.0+0x64 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:239
+           a.out 2818651 [007] 970187.528738381:          1      branches:uH:      7f41582c9844 get_common_cache_info.constprop.0+0x64 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:239
+           a.out 2818651 [007] 970187.528738683:          1      branches:uH:      7f41582c9844 get_common_cache_info.constprop.0+0x64 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:239
+           a.out 2818651 [007] 970187.528738758:          1      branches:uH:      7f41582c9844 get_common_cache_info.constprop.0+0x64 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:239
+           a.out 2818651 [007] 970187.528738909:          1      branches:uH:      7f41582c98b5 get_common_cache_info.constprop.0+0xd5 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:255
+           a.out 2818651 [007] 970187.528738927:          1      branches:uH:      7f41582c98b5 get_common_cache_info.constprop.0+0xd5 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:255
+           a.out 2818651 [007] 970187.528738946:          1      branches:uH:      7f41582c98b5 get_common_cache_info.constprop.0+0xd5 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:255
+           a.out 2818651 [007] 970187.528738981:          1      branches:uH:      7f41582c9a00 get_common_cache_info.constprop.0+0x220 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:525
+           a.out 2818651 [007] 970187.528739056:          1      branches:uH:      7f41582c9a5a get_common_cache_info.constprop.0+0x27a (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:526
+           a.out 2818651 [007] 970187.528739088:          1      branches:uH:      7f41582c9a62 get_common_cache_info.constprop.0+0x282 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:527
+           a.out 2818651 [007] 970187.528739088:          1      branches:uH:      7f41582da1ee strncmp+0xb5e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  strdup.c:41
+           a.out 2818651 [007] 970187.528739102:          1      branches:uH:      7f41582da1fa strncmp+0xb6a (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:56
+           a.out 2818651 [007] 970187.528739116:          1      branches:uH:      7f41582bd9c0 _dl_lookup_symbol_x+0x8f0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:2230
+           a.out 2818651 [007] 970187.528739116:          1      branches:uH:      7f41582b9974 _dl_init_paths+0x264 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1626
+           a.out 2818651 [007] 970187.528739130:          1      branches:uH:      7f41582d9b36 strncmp+0x4a6 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  open64_nocancel.c:39
+           a.out 2818651 [007] 970187.528740342:          1      branches:uH:      7f41582b99b7 _dl_init_paths+0x2a7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1645
+           a.out 2818651 [007] 970187.528740356:          1      branches:uH:      7f41582d9b86 strncmp+0x4f6 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  read_nocancel.c:26
+           a.out 2818651 [007] 970187.528741145:          1      branches:uH:      7f41582b9d54 _dl_map_object_from_fd+0x184 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1773
+           a.out 2818651 [007] 970187.528741178:          1      branches:uH:      7f41582d9bbc strncmp+0x52c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  pread64_nocancel.c:26
+           a.out 2818651 [007] 970187.528741424:          1      branches:uH:      7f41582b9bc8 [unknown] (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1812
+           a.out 2818651 [007] 970187.528741449:          1      branches:uH:      7f41582d9bbc strncmp+0x52c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  pread64_nocancel.c:26
+           a.out 2818651 [007] 970187.528741645:          1      branches:uH:      7f41582b9bc8 [unknown] (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1812
+           a.out 2818651 [007] 970187.528741669:          1      branches:uH:      7f41582d9bbc strncmp+0x52c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  pread64_nocancel.c:26
+           a.out 2818651 [007] 970187.528741838:          1      branches:uH:      7f41582b9a53 _dl_init_paths+0x343 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:50
+           a.out 2818651 [007] 970187.528741857:          1      branches:uH:      7f41582bd5fc _dl_lookup_symbol_x+0x52c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:2327
+           a.out 2818651 [007] 970187.528741857:          1      branches:uH:      7f41582bbc0d _dl_map_object+0x7fd (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:954
+           a.out 2818651 [007] 970187.528741892:          1      branches:uH:      7f41582bc0d5 _dl_rtld_di_serinfo+0x175 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-fileid.h:37
+           a.out 2818651 [007] 970187.528741981:          1      branches:uH:      7f41582d98fc strncmp+0x26c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  fstatat64.c:98
+           a.out 2818651 [007] 970187.528742340:          1      branches:uH:      7f41582bbc7e _dl_map_object+0x86e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1063
+           a.out 2818651 [007] 970187.528742340:          1      branches:uH:      7f41582c09d3 _dl_debug_vdprintf+0x513 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-object.c:83
+           a.out 2818651 [007] 970187.528742377:          1      branches:uH:      7f41582c09fd _dl_debug_vdprintf+0x53d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:44
+           a.out 2818651 [007] 970187.528742379:          1      branches:uH:      7f41582c0a40 _dl_debug_vdprintf+0x580 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-object.c:104
+           a.out 2818651 [007] 970187.528742416:          1      branches:uH:      7f41582c0b79 _dl_debug_vdprintf+0x6b9 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-object.c:191
+           a.out 2818651 [007] 970187.528742457:          1      branches:uH:      7f41582c0d1b [unknown] (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:56
+           a.out 2818651 [007] 970187.528742462:          1      branches:uH:      7f41582c0c19 _dl_debug_printf+0x59 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-object.c:245
+           a.out 2818651 [007] 970187.528742489:          1      branches:uH:      7f41582bc27f check_match+0x3f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1085
+           a.out 2818651 [007] 970187.528742600:          1      branches:uH:      7f41582d9bbc strncmp+0x52c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  pread64_nocancel.c:26
+           a.out 2818651 [007] 970187.528742932:          1      branches:uH:      7f41582bbf17 _dl_map_object+0xb07 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-map-segments.h:29
+           a.out 2818651 [007] 970187.528742948:          1      branches:uH:      7f41582d9cd5 strncmp+0x645 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  mmap64.c:58
+           a.out 2818651 [007] 970187.528745051:          1      branches:uH:      7f41582bc094 _dl_rtld_di_serinfo+0x134 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-map-segments.h:140
+           a.out 2818651 [007] 970187.528745068:          1      branches:uH:      7f41582d9cd5 strncmp+0x645 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  mmap64.c:58
+           a.out 2818651 [007] 970187.528749766:          1      branches:uH:      7f41582bc094 _dl_rtld_di_serinfo+0x134 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-map-segments.h:140
+           a.out 2818651 [007] 970187.528749798:          1      branches:uH:      7f41582d9cd5 strncmp+0x645 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  mmap64.c:58
+           a.out 2818651 [007] 970187.528751875:          1      branches:uH:      7f41582bc094 _dl_rtld_di_serinfo+0x134 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-map-segments.h:140
+           a.out 2818651 [007] 970187.528751898:          1      branches:uH:      7f41582d9cd5 strncmp+0x645 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  mmap64.c:58
+           a.out 2818651 [007] 970187.528754007:          1      branches:uH:      7f41582bc027 _dl_rtld_di_serinfo+0xc7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-map-segments.h:177
+           a.out 2818651 [007] 970187.528754146:          1      branches:uH:      7f41582de1fa [unknown] (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  memset-vec-unaligned-erms.S:283
+           a.out 2818651 [007] 970187.528755697:          1      branches:uH:      7f41582bcda0 do_lookup_x+0x9b0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-map-segments.h:187
+           a.out 2818651 [007] 970187.528755709:          1      branches:uH:      7f41582d9cd5 strncmp+0x645 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  mmap64.c:58
+           a.out 2818651 [007] 970187.528757241:          1      branches:uH:      7f41582bc562 do_lookup_x+0x172 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  get-dynamic-info.h:45
+           a.out 2818651 [007] 970187.528758442:          1      branches:uH:      7f41582bc648 do_lookup_x+0x258 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  get-dynamic-info.h:82
+           a.out 2818651 [007] 970187.528759621:          1      branches:uH:      7f41582bc83b do_lookup_x+0x44b (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1369
+           a.out 2818651 [007] 970187.528761472:          1      branches:uH:      7f41582bc81b do_lookup_x+0x42b (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1375
+           a.out 2818651 [007] 970187.528761574:          1      branches:uH:      7f41582bc9c6 do_lookup_x+0x5d6 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1380
+           a.out 2818651 [007] 970187.528761595:          1      branches:uH:      7f41582d99f9 strncmp+0x369 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  close_nocancel.c:26
+           a.out 2818651 [007] 970187.528761673:          1      branches:uH:      7f41582bca04 do_lookup_x+0x614 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1413
+           a.out 2818651 [007] 970187.528761690:          1      branches:uH:      7f41582bce94 do_lookup_x+0xaa4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1463
+           a.out 2818651 [007] 970187.528761832:          1      branches:uH:      7f41582da25a strncmp+0xbca (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  strcmp.S:170
+           a.out 2818651 [007] 970187.528763551:          1      branches:uH:      7f41582bca99 do_lookup_x+0x6a9 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1477
+           a.out 2818651 [007] 970187.528763551:          1      branches:uH:      7f41582bcaa5 do_lookup_x+0x6b5 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1484
+           a.out 2818651 [007] 970187.528763553:          1      branches:uH:      7f41582c0908 _dl_debug_vdprintf+0x448 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-object.c:33
+           a.out 2818651 [007] 970187.528763555:          1      branches:uH:      7f41582bcb09 do_lookup_x+0x719 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:1511
+           a.out 2818651 [007] 970187.528763677:          1      branches:uH:      7f41582b7363 [unknown] (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  scratch_buffer.h:131
+           a.out 2818651 [007] 970187.528763700:          1      branches:uH:      7f41582b6b7f __PRETTY_FUNCTION__.2+0xf (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-deps.c:244
+           a.out 2818651 [007] 970187.528763700:          1      branches:uH:      7f41582bae84 [unknown] (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:241
+           a.out 2818651 [007] 970187.528763716:          1      branches:uH:      7f41582b6c77 _dl_hwcaps_subdirs+0x7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-deps.c:248
+           a.out 2818651 [007] 970187.528763735:          1      branches:uH:      7f41582d034e _dl_tunable_set_hwcaps+0xa4e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-error-skeleton.c:206
+           a.out 2818651 [007] 970187.528763737:          1      branches:uH:      7f41582d0368 _dl_tunable_set_x86_ibt+0x8 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-error-skeleton.c:208
+           a.out 2818651 [007] 970187.528763737:          1      branches:uH:      7f41582b6490 _dl_find_object+0x70 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-deps.c:64
+           a.out 2818651 [007] 970187.528763742:          1      branches:uH:      7f41582bd49e _dl_lookup_symbol_x+0x3ce (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:2041
+           a.out 2818651 [007] 970187.528763742:          1      branches:uH:      7f41582c06a4 _dl_debug_vdprintf+0x1e4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:69
+           a.out 2818651 [007] 970187.528763775:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528763797:          1      branches:uH:      7f41582bd49e _dl_lookup_symbol_x+0x3ce (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-load.c:2041
+           a.out 2818651 [007] 970187.528763797:          1      branches:uH:      7f41582c06a4 _dl_debug_vdprintf+0x1e4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:69
+           a.out 2818651 [007] 970187.528763808:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528763812:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528763894:          1      branches:uH:      7f41582b6a54 __PRETTY_FUNCTION__.2+0x4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:56
+           a.out 2818651 [007] 970187.528763895:          1      branches:uH:      7f41582b6a7f __PRETTY_FUNCTION__.0+0xf (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-deps.c:446
+           a.out 2818651 [007] 970187.528763898:          1      branches:uH:      7f41582b6a92 __PRETTY_FUNCTION__.0+0x2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-deps.c:447
+           a.out 2818651 [007] 970187.528763962:          1      branches:uH:      7f41582b6f4c _dl_find_object_dlclose+0x5c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:56
+           a.out 2818651 [007] 970187.528764005:          1      branches:uH:      7f41582b74db _dl_init+0xb (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-deps.c:611
+           a.out 2818651 [007] 970187.528764005:          1      branches:uH:      7f41582b72c0 [unknown] (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-deps.c:616
+           a.out 2818651 [007] 970187.528764132:          1      branches:uH:      7f41582c6a98 _dl_runtime_profile_sse+0x48 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sort-maps.c:143
+           a.out 2818651 [007] 970187.528764157:          1      branches:uH:      7f41582c6a98 _dl_runtime_profile_sse+0x48 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sort-maps.c:143
+           a.out 2818651 [007] 970187.528764171:          1      branches:uH:      7f41582c6a98 _dl_runtime_profile_sse+0x48 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sort-maps.c:143
+           a.out 2818651 [007] 970187.528764176:          1      branches:uH:      7f41582c6b87 _dl_runtime_profile_sse+0x137 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sort-maps.c:274
+           a.out 2818651 [007] 970187.528764271:          1      branches:uH:      7f41582d652c dl_main+0x3c2c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2033
+           a.out 2818651 [007] 970187.528764288:          1      branches:uH:      7f41582d0470 _dl_sysdep_start+0x10 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-error-skeleton.c:246
+           a.out 2818651 [007] 970187.528764288:          1      branches:uH:      7f41582d3f27 dl_main+0x1627 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:698
+           a.out 2818651 [007] 970187.528764422:          1      branches:uH:      7f41582c95d8 handle_amd+0x178 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:367
+           a.out 2818651 [007] 970187.528764469:          1      branches:uH:      7f41582c8ebc _dl_make_tlsdesc_dynamic+0x7c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:38
+           a.out 2818651 [007] 970187.528764469:          1      branches:uH:      7f41582c06a4 _dl_debug_vdprintf+0x1e4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:69
+           a.out 2818651 [007] 970187.528764482:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528764489:          1      branches:uH:      7f41582c8ebc _dl_make_tlsdesc_dynamic+0x7c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:38
+           a.out 2818651 [007] 970187.528764489:          1      branches:uH:      7f41582c06a4 _dl_debug_vdprintf+0x1e4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:69
+           a.out 2818651 [007] 970187.528764516:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528764530:          1      branches:uH:      7f41582c8ebc _dl_make_tlsdesc_dynamic+0x7c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:38
+           a.out 2818651 [007] 970187.528764530:          1      branches:uH:      7f41582c06a4 _dl_debug_vdprintf+0x1e4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:69
+           a.out 2818651 [007] 970187.528764536:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528764693:          1      branches:uH:      7f41582c8f72 _dl_make_tlsdesc_dynamic+0x132 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:94
+           a.out 2818651 [007] 970187.528765407:          1      branches:uH:      7f41582c909f _dl_make_tlsdesc_dynamic+0x25f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:113
+           a.out 2818651 [007] 970187.528765700:          1      branches:uH:      7f41582c909f _dl_make_tlsdesc_dynamic+0x25f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:113
+           a.out 2818651 [007] 970187.528765826:          1      branches:uH:      7f41582c92d7 handle_zhaoxin+0x57 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:44
+           a.out 2818651 [007] 970187.528765834:          1      branches:uH:      7f41582c95d8 handle_amd+0x178 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:367
+           a.out 2818651 [007] 970187.528765883:          1      branches:uH:      7f41582c92d7 handle_zhaoxin+0x57 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:44
+           a.out 2818651 [007] 970187.528765926:          1      branches:uH:      7f41582c95d8 handle_amd+0x178 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:367
+           a.out 2818651 [007] 970187.528765948:          1      branches:uH:      7f41582c8ebc _dl_make_tlsdesc_dynamic+0x7c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:38
+           a.out 2818651 [007] 970187.528765948:          1      branches:uH:      7f41582c06a4 _dl_debug_vdprintf+0x1e4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:69
+           a.out 2818651 [007] 970187.528765964:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528765977:          1      branches:uH:      7f41582c8ebc _dl_make_tlsdesc_dynamic+0x7c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:38
+           a.out 2818651 [007] 970187.528765977:          1      branches:uH:      7f41582c06a4 _dl_debug_vdprintf+0x1e4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:69
+           a.out 2818651 [007] 970187.528766099:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528766114:          1      branches:uH:      7f41582c8ebc _dl_make_tlsdesc_dynamic+0x7c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:38
+           a.out 2818651 [007] 970187.528766114:          1      branches:uH:      7f41582c06a4 _dl_debug_vdprintf+0x1e4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:69
+           a.out 2818651 [007] 970187.528766130:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528766151:          1      branches:uH:      7f41582c8ebc _dl_make_tlsdesc_dynamic+0x7c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:38
+           a.out 2818651 [007] 970187.528766151:          1      branches:uH:      7f41582c06a4 _dl_debug_vdprintf+0x1e4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:69
+           a.out 2818651 [007] 970187.528766162:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528766167:          1      branches:uH:      7f41582c06cf _dl_debug_vdprintf+0x20f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-misc.c:75
+           a.out 2818651 [007] 970187.528766214:          1      branches:uH:      7f41582c909f _dl_make_tlsdesc_dynamic+0x25f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:113
+           a.out 2818651 [007] 970187.528766248:          1      branches:uH:      7f41582c909f _dl_make_tlsdesc_dynamic+0x25f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:113
+           a.out 2818651 [007] 970187.528766288:          1      branches:uH:      7f41582c909f _dl_make_tlsdesc_dynamic+0x25f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:113
+           a.out 2818651 [007] 970187.528766372:          1      branches:uH:      7f41582c92d7 handle_zhaoxin+0x57 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:44
+           a.out 2818651 [007] 970187.528766508:          1      branches:uH:      7f41582c95d8 handle_amd+0x178 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-version.c:367
+           a.out 2818651 [007] 970187.528766532:          1      branches:uH:      7f41582c92d7 handle_zhaoxin+0x57 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:44
+           a.out 2818651 [007] 970187.528766582:          1      branches:uH:      7f41582d7667 fdopendir+0x37 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2045
+           a.out 2818651 [007] 970187.528766736:          1      branches:uH:      7f41582d3d68 dl_main+0x1468 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:44
+           a.out 2818651 [007] 970187.528766773:          1      branches:uH:      7f41582d3de1 dl_main+0x14e1 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:798
+           a.out 2818651 [007] 970187.528766773:          1      branches:uH:      7f41582c703b _dl_check_map_versions+0x24b (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-tls.c:101
+           a.out 2818651 [007] 970187.528766824:          1      branches:uH:      7f41582c704f _dl_check_map_versions+0x25f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-tls.c:102
+           a.out 2818651 [007] 970187.528766827:          1      branches:uH:      7f41582d3de6 dl_main+0x14e6 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:801
+           a.out 2818651 [007] 970187.528766848:          1      branches:uH:      7f41582d3deb dl_main+0x14eb (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:808
+           a.out 2818651 [007] 970187.528766869:          1      branches:uH:      7f41582c742b _dl_check_map_versions+0x63b (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:56
+           a.out 2818651 [007] 970187.528766874:          1      branches:uH:      7f41582c046c _dl_get_origin+0x11c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-minimal-malloc.c:59
+           a.out 2818651 [007] 970187.528766899:          1      branches:uH:      7f41582d9cd5 strncmp+0x645 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  mmap64.c:58
+           a.out 2818651 [007] 970187.528767741:          1      branches:uH:      7f41582c7462 _dl_check_map_versions+0x672 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-tls.c:450
+           a.out 2818651 [007] 970187.528768631:          1      branches:uH:      7f41582c746a _dl_check_map_versions+0x67a (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-tls.c:450
+           a.out 2818651 [007] 970187.528769325:          1      branches:uH:      7f41582c74a0 _dl_check_map_versions+0x6b0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:44
+           a.out 2818651 [007] 970187.528769335:          1      branches:uH:      7f41582d3e1d dl_main+0x151d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:818
+           a.out 2818651 [007] 970187.528769417:          1      branches:uH:      7f41582d3e23 dl_main+0x1523 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:821
+           a.out 2818651 [007] 970187.528769433:          1      branches:uH:      7f41582c813c _dl_load_cache_lookup+0xa2c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-tls_init_tp.c:75
+           a.out 2818651 [007] 970187.528769536:          1      branches:uH:      7f41582c8198 _dl_load_cache_lookup+0xa88 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-tls_init_tp.c:93
+           a.out 2818651 [007] 970187.528769595:          1      branches:uH:      7f41582c81ad _dl_load_cache_lookup+0xa9d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-tls_init_tp.c:106
+           a.out 2818651 [007] 970187.528769622:          1      branches:uH:      7f41582c81cf _dl_load_cache_lookup+0xabf (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rseq-internal.h:34
+           a.out 2818651 [007] 970187.528769831:          1      branches:uH:      7f41582d68c3 dl_main+0x3fc3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-prop.h:71
+           a.out 2818651 [007] 970187.528769987:          1      branches:uH:      7f41582d6a7e dl_main+0x417e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2441
+           a.out 2818651 [007] 970187.528770348:          1      branches:uH:      7f41582c3e82 _dl_fixup+0x12 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:87
+           a.out 2818651 [007] 970187.528771720:          1      branches:uH:      7f41582c4340 _dl_profile_fixup+0x240 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:530
+           a.out 2818651 [007] 970187.528773172:          1      branches:uH:      7f41582c4340 _dl_profile_fixup+0x240 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:530
+           a.out 2818651 [007] 970187.528774880:          1      branches:uH:      7f41582c4340 _dl_profile_fixup+0x240 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:530
+           a.out 2818651 [007] 970187.528777062:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528777166:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528777423:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528777425:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528777631:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528777733:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528777814:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528777910:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528777917:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528777937:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528778020:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528778102:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528778110:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528778116:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528778194:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528778291:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528778312:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528778316:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528778384:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528778463:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528778469:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528778474:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528778493:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528778505:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528778529:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528778631:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528778726:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528778818:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528778891:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528778897:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528778923:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528779020:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528779022:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528779036:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528779118:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528779206:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528779216:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528779298:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528779383:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528779499:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528779501:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528779507:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528779510:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528779515:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528779532:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528779556:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528779647:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528779661:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528779742:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528779755:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528779760:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528779846:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528779861:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528779894:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528779975:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528780081:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528780091:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528780176:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528780191:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528780306:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528780317:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528780425:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528780438:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528780448:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528780456:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528780540:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528780600:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528780609:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528780628:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528780749:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528780763:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528780947:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528780956:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528780973:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528780994:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528781026:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528781038:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528781085:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528781171:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528781183:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528781192:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528781270:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528781280:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528781285:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528781289:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528781296:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528781398:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528781403:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528781487:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528781489:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528781508:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528781570:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528781589:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528781599:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528781611:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528781635:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528781722:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528781728:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528781814:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528781821:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528781842:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528781852:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528781944:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528781961:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528781972:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528782070:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528782081:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528782180:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528782346:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528782354:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528782359:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528782365:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528782483:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528782505:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528782511:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528782520:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528782601:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528782632:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528782632:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528782651:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528782736:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528782833:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528782916:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528782944:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528782960:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528782971:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528782992:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528783004:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528783081:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528783171:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528783207:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528783222:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528783264:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528783269:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528783292:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528783347:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528783368:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528783378:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528783412:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528783422:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528783440:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528783452:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528783471:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528783475:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528783566:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528783665:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528783752:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528783764:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528783778:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528783790:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528783802:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528783813:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528783892:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528784064:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528784078:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528784094:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528784195:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528784202:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528784377:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528784396:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528784412:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528784422:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528784442:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528784444:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528784526:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528784556:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528784573:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528784575:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528784677:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528784690:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528784699:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528784794:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528784809:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528784826:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528784903:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528784907:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528785044:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528785079:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528785236:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528785249:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528785262:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528785273:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528785320:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528785333:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528785458:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528785542:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528785551:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528785566:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528786013:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528786114:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528786119:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528786129:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528786211:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528786286:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528786306:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528786320:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528786334:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528786417:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528786449:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528786453:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528786465:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528786887:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528786901:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528786911:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528787016:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528787030:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528787064:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528787074:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528787089:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528787100:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528787130:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528787138:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528787155:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528787167:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528787179:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528787184:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528787301:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528787382:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528787402:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528787404:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528787489:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528787550:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528787561:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528787664:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528787779:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528787815:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528787832:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528787840:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528787853:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528787921:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528787964:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528787964:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528788000:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528788021:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528788029:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528788048:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528788048:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528788063:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528788139:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528788218:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528788244:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528788255:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528788383:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528788396:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528788421:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528788430:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528788553:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528788645:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528788650:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528788725:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528788744:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528788758:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528788770:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528788786:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528788864:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528788876:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528788895:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528788908:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528788984:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528788998:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528789014:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528789102:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528789114:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528789140:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528789159:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528789165:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528789174:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528789179:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528789196:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528789214:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528789231:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528789238:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528789254:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528789257:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528789297:          1      branches:uH:      7f41582c46e9 dfs_traversal.part.0+0xc9 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:509
+           a.out 2818651 [007] 970187.528789518:          1      branches:uH:      7f4158136220 __sysconf_check_spec+0x60 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  cacheinfo.c:86
+           a.out 2818651 [007] 970187.528791302:          1      branches:uH:      7f415813627a __sysconf_check_spec+0xba (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  cacheinfo.h:80
+           a.out 2818651 [007] 970187.528792224:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528792390:          1      branches:uH:      7f41581197a0 __wcsxfrm_l+0x100 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  strnlen.c:31
+           a.out 2818651 [007] 970187.528793905:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528793915:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794022:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794118:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794224:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794245:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794280:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794299:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794390:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794409:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794446:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794465:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794483:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794947:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794968:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794984:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528794995:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528795006:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528795113:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528795129:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528795161:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528795172:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528795350:          1      branches:uH:      7f41581225f0 __mktime_internal+0x450 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  memrchr.c:29
+           a.out 2818651 [007] 970187.528796774:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528796874:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528796884:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528796906:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528796925:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528796946:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528796964:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528796983:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528797004:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528797016:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528797032:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528797064:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528797075:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528797084:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528797108:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528797123:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528797227:          1      branches:uH:      7f41582c4091 _dl_fixup+0x221 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:581
+           a.out 2818651 [007] 970187.528797241:          1      branches:uH:      7f41582c4de4 tls_get_addr_tail+0x64 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-reloc.c:351
+           a.out 2818651 [007] 970187.528797277:          1      branches:uH:      7f41582d9d49 strncmp+0x6b9 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  syscall-template.S:117
+           a.out 2818651 [007] 970187.528799140:          1      branches:uH:      7f41582d6aa3 brk+0x3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2446
+           a.out 2818651 [007] 970187.528799181:          1      branches:uH:      7f41582d6a7e dl_main+0x417e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2441
+           a.out 2818651 [007] 970187.528799224:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528799234:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528799251:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528799346:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528799388:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528799406:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528799441:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528799508:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528799523:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528799545:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528799568:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528799590:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528799608:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528799614:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528799663:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528799663:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528799827:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528799871:          1      branches:uH:      7f41582c4de4 tls_get_addr_tail+0x64 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-reloc.c:351
+           a.out 2818651 [007] 970187.528799884:          1      branches:uH:      7f41582d9d49 strncmp+0x6b9 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  syscall-template.S:117
+           a.out 2818651 [007] 970187.528800823:          1      branches:uH:      7f41582d6b11 sbrk+0x41 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2468
+           a.out 2818651 [007] 970187.528800850:          1      branches:uH:      7f41582c7524 _dl_check_map_versions+0x734 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-tls.c:539
+           a.out 2818651 [007] 970187.528800870:          1      branches:uH:      7f41582c7638 _dl_cache_libcmp+0x8 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-tls.c:608
+           a.out 2818651 [007] 970187.528800887:          1      branches:uH:      7f41582c7648 _dl_cache_libcmp+0x18 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-tls.c:608
+           a.out 2818651 [007] 970187.528800900:          1      branches:uH:      7f41582c7675 _dl_cache_libcmp+0x45 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-tls.c:620
+           a.out 2818651 [007] 970187.528800905:          1      branches:uH:      7f41582d71f4 opendir+0x44 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2493
+           a.out 2818651 [007] 970187.528801001:          1      branches:uH:      7f41582b8967 open_verify.constprop.1+0x347 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-find_object.c:567
+           a.out 2818651 [007] 970187.528801058:          1      branches:uH:      7f41582b8859 open_verify.constprop.1+0x239 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-find_object.c:579
+           a.out 2818651 [007] 970187.528801124:          1      branches:uH:      7f41582b886c open_verify.constprop.1+0x24c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld-malloc.h:56
+           a.out 2818651 [007] 970187.528801134:          1      branches:uH:      7f41582b8948 open_verify.constprop.1+0x328 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-find_object.c:591
+           a.out 2818651 [007] 970187.528801150:          1      branches:uH:      7f41582b8356 open_path+0x406 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-find_object.c:515
+           a.out 2818651 [007] 970187.528801175:          1      branches:uH:      7f41582b8356 open_path+0x406 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-find_object.c:515
+           a.out 2818651 [007] 970187.528801197:          1      branches:uH:      7f41582b8356 open_path+0x406 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-find_object.c:515
+           a.out 2818651 [007] 970187.528801214:          1      branches:uH:      7f41582b8994 open_verify.constprop.1+0x374 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-find_object.c:596
+           a.out 2818651 [007] 970187.528801341:          1      branches:uH:      7f41582d71fc opendir+0x4c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2498
+           a.out 2818651 [007] 970187.528801361:          1      branches:uH:      7f41582d1648 print_statistics+0x28 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-minimal.c:91
+           a.out 2818651 [007] 970187.528801361:          1      branches:uH:      7f41582d152e print_statistics_item+0x12e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-minimal.c:64
+           a.out 2818651 [007] 970187.528801373:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528801483:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528801483:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528801524:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528801548:          1      branches:uH:      7f41582d165d print_statistics+0x3d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-minimal.c:92
+           a.out 2818651 [007] 970187.528801548:          1      branches:uH:      7f41582d152e print_statistics_item+0x12e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-minimal.c:64
+           a.out 2818651 [007] 970187.528801553:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528801590:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528801590:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528801637:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528801650:          1      branches:uH:      7f41582d1672 print_statistics+0x52 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-minimal.c:93
+           a.out 2818651 [007] 970187.528801650:          1      branches:uH:      7f41582d152e print_statistics_item+0x12e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-minimal.c:64
+           a.out 2818651 [007] 970187.528801656:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528801692:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528801714:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528801739:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528801754:          1      branches:uH:      7f41582d1687 print_statistics+0x67 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-minimal.c:94
+           a.out 2818651 [007] 970187.528801754:          1      branches:uH:      7f41582d152e print_statistics_item+0x12e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-minimal.c:64
+           a.out 2818651 [007] 970187.528801765:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528801775:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528801775:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528801873:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528801884:          1      branches:uH:      7f41582d7201 opendir+0x51 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2501
+           a.out 2818651 [007] 970187.528801884:          1      branches:uH:      7f41582d182e print_statistics+0x20e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-mutex.c:40
+           a.out 2818651 [007] 970187.528801970:          1      branches:uH:      7f41582c0192 dl_open_worker_begin+0x892 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup-direct.c:53
+           a.out 2818651 [007] 970187.528802018:          1      branches:uH:      7f41582c01cf dl_open_worker_begin+0x8cf (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup-direct.c:59
+           a.out 2818651 [007] 970187.528802023:          1      branches:uH:      7f41582d1875 print_unresolved+0x15 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-mutex.c:47
+           a.out 2818651 [007] 970187.528802042:          1      branches:uH:      7f41582c0192 dl_open_worker_begin+0x892 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup-direct.c:53
+           a.out 2818651 [007] 970187.528802114:          1      branches:uH:      7f41582c01cf dl_open_worker_begin+0x8cf (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup-direct.c:59
+           a.out 2818651 [007] 970187.528802118:          1      branches:uH:      7f41582d722b opendir+0x7b (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2508
+           a.out 2818651 [007] 970187.528802167:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528802179:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528802397:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528802403:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528802436:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528802454:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528802489:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528802493:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528802535:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528802556:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528802592:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528802978:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528803009:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528803028:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528803048:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528803059:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528803059:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528803172:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528803187:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528803197:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528803228:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528803228:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528803268:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528803279:          1      branches:uH:      7f41582c44e3 _dl_scope_free+0xb3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:294
+           a.out 2818651 [007] 970187.528803290:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528803297:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528803381:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528803385:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528803392:          1      branches:uH:      7f41582c46e9 dfs_traversal.part.0+0xc9 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-machine.h:509
+           a.out 2818651 [007] 970187.528803395:          1      branches:uH:      7f41582c4de4 tls_get_addr_tail+0x64 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-reloc.c:351
+           a.out 2818651 [007] 970187.528803404:          1      branches:uH:      7f41582d9d49 strncmp+0x6b9 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  syscall-template.S:117
+           a.out 2818651 [007] 970187.528805121:          1      branches:uH:      7f41582d724f opendir+0x9f (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2516
+           a.out 2818651 [007] 970187.528805128:          1      branches:uH:      7f41582b50fd _rtld_global+0xbd (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-call-libc-early-init.c:33
+           a.out 2818651 [007] 970187.528805234:          1      branches:uH:      7f41582c0192 dl_open_worker_begin+0x892 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup-direct.c:53
+           a.out 2818651 [007] 970187.528805319:          1      branches:uH:      7f41582c01cf dl_open_worker_begin+0x8cf (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup-direct.c:59
+           a.out 2818651 [007] 970187.528805504:          1      branches:uH:      7f41581e6cc0 __strnlen_avx2+0x1e0 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  libc_early_init.c:33
+           a.out 2818651 [007] 970187.528807025:          1      branches:uH:      7f41581e6cdb __strnlen_avx2+0x1fb (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  libc_early_init.c:35
+           a.out 2818651 [007] 970187.528807297:          1      branches:uH:      7f41580ab3c0 __isoc99_sscanf+0xf0 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  ctype-info.c:29
+           a.out 2818651 [007] 970187.528808231:          1      branches:uH:      7f41581e6cef __strnlen_avx2+0x20f (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  libc_early_init.c:41
+           a.out 2818651 [007] 970187.528809040:          1      branches:uH:      7f41581e6cf5 __strnlen_avx2+0x215 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  libc_early_init.c:38
+           a.out 2818651 [007] 970187.528809650:          1      branches:uH:      7f41581e6cf7 __strnlen_avx2+0x217 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  pthread_early_init.h:33
+           a.out 2818651 [007] 970187.528809833:          1      branches:uH:      7f415818b480 getipv4sourcefilter+0x110 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  getrlimit64.c:38
+           a.out 2818651 [007] 970187.528810804:          1      branches:uH:      7f415818b492 getipv4sourcefilter+0x122 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  getrlimit64.c:39
+           a.out 2818651 [007] 970187.528811374:          1      branches:uH:      7f41581e6d3e __strnlen_avx2+0x25e (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  pthread_early_init.h:54
+           a.out 2818651 [007] 970187.528811953:          1      branches:uH:      7f41581e6d78 __strnlen_avx2+0x298 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  pthread_early_init.h:57
+           a.out 2818651 [007] 970187.528812135:          1      branches:uH:      7f4158108560 __strncat_ssse3+0x2bb0 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  pthread_mutex_conf.c:50
+           a.out 2818651 [007] 970187.528813904:          1      branches:uH:      7f415810858b __strncat_ssse3+0x2bdb (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  pthread_mutex_conf.c:51
+           a.out 2818651 [007] 970187.528814111:          1      branches:uH:      7f4158099650 [unknown] (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  libc.so.6[28650]
+           a.out 2818651 [007] 970187.528814877:          1      branches:uH:      7f41582c8da9 __GI___tunables_print+0xe9 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-trampoline.h:126
+           a.out 2818651 [007] 970187.528814933:          1      branches:uH:      7f41582c5f6c _dl_init_static_tls+0x4c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-runtime.c:95
+           a.out 2818651 [007] 970187.528814974:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528815019:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528815019:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528815055:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528815110:          1      branches:uH:      7f415810859f __strncat_ssse3+0x2bef (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  pthread_mutex_conf.c:53
+           a.out 2818651 [007] 970187.528815202:          1      branches:uH:      7f4158101cfd __GI___strncasecmp_l_sse2+0x10ad (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  elision-conf.c:101
+           a.out 2818651 [007] 970187.528815203:          1      branches:uH:      7f4158101d11 __GI___strncasecmp_l_sse2+0x10c1 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  elision-conf.c:103
+           a.out 2818651 [007] 970187.528815205:          1      branches:uH:      7f4158101d25 __GI___strncasecmp_l_sse2+0x10d5 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  elision-conf.c:105
+           a.out 2818651 [007] 970187.528815207:          1      branches:uH:      7f4158101d39 __GI___strncasecmp_l_sse2+0x10e9 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  elision-conf.c:107
+           a.out 2818651 [007] 970187.528815303:          1      branches:uH:      7f4158101d4d __GI___strncasecmp_l_sse2+0x10fd (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  elision-conf.c:109
+           a.out 2818651 [007] 970187.528815425:          1      branches:uH:      7f4158101d52 __GI___strncasecmp_l_sse2+0x1102 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  elision-conf.c:113
+           a.out 2818651 [007] 970187.528815824:          1      branches:uH:      7f41582d7254 opendir+0xa4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2523
+           a.out 2818651 [007] 970187.528815825:          1      branches:uH:      7f41582d725d opendir+0xad (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2527
+           a.out 2818651 [007] 970187.528815825:          1      branches:uH:      7f41582d7264 opendir+0xb4 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2532
+           a.out 2818651 [007] 970187.528815827:          1      branches:uH:      7f41582d7273 opendir+0xc3 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2534
+           a.out 2818651 [007] 970187.528815827:          1      branches:uH:      7f41582d7279 opendir+0xc9 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  rtld.c:2539
+           a.out 2818651 [007] 970187.528815827:          1      branches:uH:      7f41582ca2fb update_active.constprop.0+0x28b (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-cache.c:540
+           a.out 2818651 [007] 970187.528815836:          1      branches:uH:      7f41582d9d19 strncmp+0x689 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  syscall-template.S:117
+           a.out 2818651 [007] 970187.528819908:          1      branches:uH:      7f41582d32e5 dl_main+0x9e5 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  :0
+           a.out 2818651 [007] 970187.528820004:          1      branches:uH:      7f41582b9563 decompose_rpath+0x23 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-init.c:33
+           a.out 2818651 [007] 970187.528820126:          1      branches:uH:      7f41582b9563 decompose_rpath+0x23 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-init.c:33
+           a.out 2818651 [007] 970187.528820139:          1      branches:uH:      7f41582b947c fillin_rpath.isra.0+0x22c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-init.c:70
+           a.out 2818651 [007] 970187.528820413:          1      branches:uH:      7f4158196aa0 res_query@@GLIBC_2.34+0x60 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  init-misc.c:30
+           a.out 2818651 [007] 970187.528821417:          1      branches:uH:      7f4158196ac2 res_query@@GLIBC_2.34+0x82 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  init-misc.c:33
+           a.out 2818651 [007] 970187.528821608:          1      branches:uH:      7f415820e790 [unknown] (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  strrchr-avx2.S:46
+           a.out 2818651 [007] 970187.528822748:          1      branches:uH:      7f41582b947c fillin_rpath.isra.0+0x22c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-init.c:70
+           a.out 2818651 [007] 970187.528822769:          1      branches:uH:      7f41582b9563 decompose_rpath+0x23 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-init.c:33
+           a.out 2818651 [007] 970187.528822986:          1      branches:uH:      555de6697040 _start+0x0 (/home/wangzc/Documents/FlameGraph-for-new-defense/intel-pt/a.out)
+           a.out 2818651 [007] 970187.528823518:          1      branches:uH:      555de669705f _start+0x1f (/home/wangzc/Documents/FlameGraph-for-new-defense/intel-pt/a.out)
+           a.out 2818651 [007] 970187.528823524:          1      branches:uH:      7f415809ade9 __vstrfmon_l_internal+0x539 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  libc-start.c:344
+           a.out 2818651 [007] 970187.528823704:          1      branches:uH:      7f41580b68c0 __vfwscanf_internal+0x3080 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  cxa_atexit.c:69
+           a.out 2818651 [007] 970187.528824899:          1      branches:uH:      7f41580b6906 __vfwscanf_internal+0x30c6 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  cxa_atexit.c:44
+           a.out 2818651 [007] 970187.528825009:          1      branches:uH:      7f415809ae66 __vstrfmon_l_internal+0x5b6 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  libc-start.c:135
+           a.out 2818651 [007] 970187.528825101:          1      branches:uH:      7f415809aeb9 __vstrfmon_l_internal+0x609 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  libc-start.c:145
+           a.out 2818651 [007] 970187.528825111:          1      branches:uH:      7f415809ae26 __vstrfmon_l_internal+0x576 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  libc-start.c:382
+           a.out 2818651 [007] 970187.528825146:          1      branches:uH:      7f41582c8da9 __GI___tunables_print+0xe9 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-trampoline.h:126
+           a.out 2818651 [007] 970187.528825177:          1      branches:uH:      7f41582c5f6c _dl_init_static_tls+0x4c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-runtime.c:95
+           a.out 2818651 [007] 970187.528825221:          1      branches:uH:      7f41582bf20c _dl_find_dso_for_object+0x3c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:860
+           a.out 2818651 [007] 970187.528825256:          1      branches:uH:      7f41582be7e4 _dl_strtoul+0x94 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:431
+           a.out 2818651 [007] 970187.528825256:          1      branches:uH:      7f41582be2a2 _dl_lookup_direct+0x1f2 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:89
+           a.out 2818651 [007] 970187.528825304:          1      branches:uH:      7f41582be377 _dl_lookup_direct+0x2c7 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-lookup.c:117
+           a.out 2818651 [007] 970187.528825352:          1      branches:uH:      7f415809ae3b __vstrfmon_l_internal+0x58b (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  libc-start.c:392
+           a.out 2818651 [007] 970187.528825352:          1      branches:uH:      7f415809ad3f __vstrfmon_l_internal+0x48f (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  libc_start_call_main.h:44
+           a.out 2818651 [007] 970187.528825465:          1      branches:uH:      7f415809ad8e __vstrfmon_l_internal+0x4de (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  libc_start_call_main.h:58
+           a.out 2818651 [007] 970187.528825545:          1      branches:uH:      7f415809ad92 __vstrfmon_l_internal+0x4e2 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  libc_start_call_main.h:74
+           a.out 2818651 [007] 970187.528825545:          1      branches:uH:      7f41580b660b __vfwscanf_internal+0x2dcb (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  exit.c:143
+           a.out 2818651 [007] 970187.528825624:          1      branches:uH:      7f41580b65c4 __vfwscanf_internal+0x2d84 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  exit.c:46
+           a.out 2818651 [007] 970187.528825668:          1      branches:uH:      7f41580b6493 __vfwscanf_internal+0x2c53 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  exit.c:113
+           a.out 2818651 [007] 970187.528825748:          1      branches:uH:      7f41582b90b1 expand_dynamic_string_token+0x1 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-fini.c:54
+           a.out 2818651 [007] 970187.528825787:          1      branches:uH:      7f41582b90e1 expand_dynamic_string_token+0x31 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-fini.c:68
+           a.out 2818651 [007] 970187.528825839:          1      branches:uH:      7f41582b91bb expand_dynamic_string_token+0x10b (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-fini.c:99
+           a.out 2818651 [007] 970187.528825862:          1      branches:uH:      7f41582c6a98 _dl_runtime_profile_sse+0x48 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sort-maps.c:143
+           a.out 2818651 [007] 970187.528825886:          1      branches:uH:      7f41582c6a98 _dl_runtime_profile_sse+0x48 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sort-maps.c:143
+           a.out 2818651 [007] 970187.528825905:          1      branches:uH:      7f41582c6a98 _dl_runtime_profile_sse+0x48 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sort-maps.c:143
+           a.out 2818651 [007] 970187.528825915:          1      branches:uH:      7f41582c6a98 _dl_runtime_profile_sse+0x48 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sort-maps.c:143
+           a.out 2818651 [007] 970187.528825934:          1      branches:uH:      7f41582c6b87 _dl_runtime_profile_sse+0x137 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-sort-maps.c:274
+           a.out 2818651 [007] 970187.528825960:          1      branches:uH:      7f41582b91c3 expand_dynamic_string_token+0x113 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-fini.c:108
+           a.out 2818651 [007] 970187.528826025:          1      branches:uH:      7f41582b924c expand_dynamic_string_token+0x19c (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-fini.c:142
+           a.out 2818651 [007] 970187.528826036:          1      branches:uH:      555de6697102 __do_global_dtors_aux+0x22 (/home/wangzc/Documents/FlameGraph-for-new-defense/intel-pt/a.out)
+  crtstuff.c:0
+           a.out 2818651 [007] 970187.528826363:          1      branches:uH:      7f41580b6ae6 __vfwscanf_internal+0x32a6 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  cxa_finalize.c:106
+           a.out 2818651 [007] 970187.528826540:          1      branches:uH:      7f415815be40 __posix_spawn_file_actions_addclosefrom+0x50 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  register-atfork.c:76
+           a.out 2818651 [007] 970187.528827666:          1      branches:uH:      555de6697107 __do_global_dtors_aux+0x27 (/home/wangzc/Documents/FlameGraph-for-new-defense/intel-pt/a.out)
+  crtstuff.c:0
+           a.out 2818651 [007] 970187.528827679:          1      branches:uH:      7f41582b9272 fillin_rpath.isra.0+0x22 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-fini.c:147
+           a.out 2818651 [007] 970187.528827689:          1      branches:uH:      7f41582b9277 fillin_rpath.isra.0+0x27 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-fini.c:153
+           a.out 2818651 [007] 970187.528827716:          1      branches:uH:      7f41582b9277 fillin_rpath.isra.0+0x27 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-fini.c:153
+           a.out 2818651 [007] 970187.528827827:          1      branches:uH:      7f41582b9277 fillin_rpath.isra.0+0x27 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-fini.c:153
+           a.out 2818651 [007] 970187.528827827:          1      branches:uH:      7f41582b9297 fillin_rpath.isra.0+0x47 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  dl-fini.c:162
+           a.out 2818651 [007] 970187.528827882:          1      branches:uH:      7f41580b6540 __vfwscanf_internal+0x2d00 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  exit.c:134
+           a.out 2818651 [007] 970187.528828060:          1      branches:uH:      7f41580ffbd0 __GI___strcasecmp_l_sse2+0x11d0 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  genops.c:863
+           a.out 2818651 [007] 970187.528829283:          1      branches:uH:      7f41580ffbf9 __GI___strcasecmp_l_sse2+0x11f9 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  genops.c:866
+           a.out 2818651 [007] 970187.528829283:          1      branches:uH:      7f41580ff9a2 __GI___strcasecmp_l_sse2+0xfa2 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  genops.c:691
+           a.out 2818651 [007] 970187.528829576:          1      branches:uH:      7f41580ff9c0 __GI___strcasecmp_l_sse2+0xfc0 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  genops.c:692
+           a.out 2818651 [007] 970187.528830409:          1      branches:uH:      7f41580ffb3c __GI___strcasecmp_l_sse2+0x113c (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  genops.c:716
+           a.out 2818651 [007] 970187.528830413:          1      branches:uH:      7f41580ffc19 __GI___strcasecmp_l_sse2+0x1219 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  genops.c:786
+           a.out 2818651 [007] 970187.528830452:          1      branches:uH:      7f41580ffdb4 __GI___strcasecmp_l_sse2+0x13b4 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  genops.c:843
+           a.out 2818651 [007] 970187.528830459:          1      branches:uH:      7f41580b654d __vfwscanf_internal+0x2d0d (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  exit.c:136
+           a.out 2818651 [007] 970187.528830489:          1      branches:uH:      7f415815bc9f __posix_spawn_file_actions_adddup2+0x5f (/usr/lib/x86_64-linux-gnu/libc.so.6)
+  _exit.c:30
+           a.out 2818651 [007] 970187.528848047:              psb:  psb offs: 0x4100                                 0 [unknown] ([unknown])
