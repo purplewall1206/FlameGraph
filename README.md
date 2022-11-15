@@ -1,3 +1,23 @@
+# technique challenge
+
+1. benchmark setup
+	- fuzzing? hybrid fuzzing? : cover every new added code, but pure fuzzing has no guarentee on that.
+	- syzkaller is coverage fuzzing, grebe object-orientied fuzzing, directed fuzzing
+	- goal: coverage & different condition->hybrid fuzzing
+2. tracing 
+	- intel pt noise parse? (confirm that!)
+	- packet parsing, Take or not Take, if the instruction is executed?
+3. Analysis:
+	- why the positon has performance loss
+	- where?
+	- how to optimize?
+
+
+case to figure out
+
+
+
+
 # Flame Graphs visualize profiled code
 
 https://drive.google.com/drive/folders/1zf3WdoFC9X1mI5jVZ2J74PqawN8GqCj-
