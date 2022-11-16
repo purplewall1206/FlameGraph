@@ -1,3 +1,35 @@
+# comprehensive performance analysis for new kernel protection
+
+- **insight**: the overhead of new kernel protection is not accurate, that will cause unexpected performance regression.
+- **motivating example**: slab freelist randomization has a huge performance regression in the `big-fork` (SOSP'19)
+- **innovation**: comprehensive/layered performance analysis on kernel protections, 
+    - comprehensive syscall input to trigger the new protection
+    - refine the analysis from 1)version/syscall level, to 2)function level, to 3)instruction level.
+- **background** kernel protection cases:
+    - add new source code
+    - compiler inserted protection(only in binary, not in source)
+    - compiler inserted protection not execute(struct layout randomization, cache hit/miss, gem5 simulate)
+    - only work at boot time
+    - work at runtime(frequent execution/not frequent)
+- **design**
+    - (customized)input component: directed/hybrid fuzzing to trigger the protection with different input context.
+    - (customized)trace: **stateful**, 1)syscall execution time, 2)function execution time, 3)instruction execution times per function call.
+    - (general)analyze: performance regression in different level.
+- **root causes of regression**
+    - loop
+    - fast/slow path
+- **limitation**
+    - implicit, change the execution status, cache hit/miss
+
+**DRAW A FIGURE TO REPRESENT KERNEL PROTECTIONS**
+- type: source code / compiler
+- position: code, data, structure....
+- execution time: compiler mutation, boot only, execution only.
+
+
+
+
+
 # technique challenge
 
 1. benchmark setup
