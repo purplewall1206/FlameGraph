@@ -254,3 +254,25 @@ python 分析
 - control flow 分析
 - 时间差分析
 
+instruction cause performance regression
+- loop
+- fast/slow path
+
+architecture
+- layed analysis, version level, function level, instruction level(execution time)
+
+
+add protection case
+- add new source code
+- compiler inserted protection(only in binary, not in source)
+- compiler inserted protection not execute(struct layout randomization, cache hit/miss, gem5 simulate)
+- only work at boot time
+- work at runtime(frequent execution/not frequent)
+
+limitation
+- implicit, change the execution status, cache hit/miss
+
+**DRAW A TABLE**
+- protection add type/position/execution time
+- customized input/tracing
+- general analysis.
