@@ -6,7 +6,7 @@
 #include <sys/resource.h>
 #include <bpf/libbpf.h>
 #include <fcntl.h>
-#include "minimal.skel.h"
+#include "rdtsc_count.skel.h"
 #include <sys/syscall.h>
 #include <sys/sysinfo.h>
 #include <linux/perf_event.h>
@@ -23,19 +23,19 @@ static void sig_int(int signo)
 	stop = 1;
 }
 
-static long perf_event_open(struct perf_event_attr *hw_event, pid_t pid,
-			    int cpu, int group_fd, unsigned long flags)
-{
-	int ret;
+// static long perf_event_open(struct perf_event_attr *hw_event, pid_t pid,
+// 			    int cpu, int group_fd, unsigned long flags)
+// {
+// 	int ret;
 
-	ret = syscall(__NR_perf_event_open, hw_event, pid, cpu, group_fd, flags);
-	return ret;
-}
+// 	ret = syscall(__NR_perf_event_open, hw_event, pid, cpu, group_fd, flags);
+// 	return ret;
+// }
 
 
 int main(int argc, char **argv)
 {
-	struct minimal_bpf *skel;
+	struct rdtsc_count_bpf *skel;
 	int err;
 	int trace_fd = 0;
 	struct perf_event_attr attr;
@@ -57,7 +57,7 @@ int main(int argc, char **argv)
 	}
 
 	/* Open BPF application */
-	skel = minimal_bpf__open();
+	skel = rdtsc_count_bpf__open();
 	if (!skel) {
 		fprintf(stderr, "Failed to open BPF skeleton\n");
 		return 1;
@@ -73,14 +73,14 @@ int main(int argc, char **argv)
 	}
 
 	/* Load & verify BPF programs */
-	err = minimal_bpf__load(skel);
+	err = rdtsc_count_bpf__load(skel);
 	if (err) {
 		fprintf(stderr, "Failed to load and verify BPF skeleton\n");
 		goto cleanup;
 	}
 
 	/* Attach tracepoint handler */
-	err = minimal_bpf__attach(skel);
+	err = rdtsc_count_bpf__attach(skel);
 	if (err) {
 		fprintf(stderr, "Failed to attach BPF skeleton\n");
 		goto cleanup;
@@ -95,35 +95,35 @@ int main(int argc, char **argv)
 	printf("Successfully started! Please run `sudo cat /sys/kernel/debug/tracing/trace_pipe` "
 		"to see output of the BPF programs.\n");
 
-	pefds = malloc(num_cpus * sizeof(int));
-	for (i = 0; i < num_cpus; i++)
-		pefds[i] = -1;
+	// pefds = malloc(num_cpus * sizeof(int));
+	// for (i = 0; i < num_cpus; i++)
+	// 	pefds[i] = -1;
 
-	links = calloc(num_cpus, sizeof(struct bpf_link *));
+	// links = calloc(num_cpus, sizeof(struct bpf_link *));
 
-	memset(&attr, 0, sizeof(attr));
-	attr.type = PERF_TYPE_HARDWARE;
-	attr.size = sizeof(attr);
-	attr.config = PERF_COUNT_HW_CPU_CYCLES;
-	attr.sample_freq = freq;
-	attr.freq = 1;
+	// memset(&attr, 0, sizeof(attr));
+	// attr.type = PERF_TYPE_HARDWARE;
+	// attr.size = sizeof(attr);
+	// attr.config = PERF_COUNT_HW_CPU_CYCLES;
+	// attr.sample_freq = freq;
+	// attr.freq = 1;
 
-	for (cpu = 0; cpu < num_cpus; cpu++) {
-		/* Set up performance monitoring on a CPU/Core */
-		pefd = perf_event_open(&attr, pid, cpu, -1, PERF_FLAG_FD_CLOEXEC);
-		if (pefd < 0) {
-			fprintf(stderr, "Fail to set up performance monitor on a CPU/Core\n");
-			goto cleanup;
-		}
-		pefds[cpu] = pefd;
+	// for (cpu = 0; cpu < num_cpus; cpu++) {
+	// 	/* Set up performance monitoring on a CPU/Core */
+	// 	pefd = perf_event_open(&attr, pid, cpu, -1, PERF_FLAG_FD_CLOEXEC);
+	// 	if (pefd < 0) {
+	// 		fprintf(stderr, "Fail to set up performance monitor on a CPU/Core\n");
+	// 		goto cleanup;
+	// 	}
+	// 	pefds[cpu] = pefd;
 
-		/* Attach a BPF program on a CPU */
-		links[cpu] = bpf_program__attach_perf_event(skel->progs.profile, pefd);
-		if (!links[cpu]) {
-			err = -1;
-			goto cleanup;
-		}
-	}
+	// 	/* Attach a BPF program on a CPU */
+	// 	links[cpu] = bpf_program__attach_perf_event(skel->progs.profile, pefd);
+	// 	if (!links[cpu]) {
+	// 		err = -1;
+	// 		goto cleanup;
+	// 	}
+	// }
 
 
 
@@ -143,6 +143,6 @@ int main(int argc, char **argv)
     }
 
 cleanup:
-	minimal_bpf__destroy(skel);
+	rdtsc_count_bpf__destroy(skel);
 	return -err;
 }

@@ -19,3 +19,12 @@ int handle_tp(void *ctx)
 
 	return 0;
 }
+
+
+SEC("perf_event")
+int profile(void *ctx)
+{
+	int pid = bpf_get_current_pid_tgid() >> 32;
+	bpf_printk("pid:%d profiling\n", pid);
+	return 0;
+}
